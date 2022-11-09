@@ -19,6 +19,8 @@ public class main
 
         //Declaração de variável do tipo string (sequência de caracteres):
         String var_string = "Aparecida da Silva";
+        
+        //Sintaxe: tipo de dado nome da variável (declaração de valor é opcional).
 
         //Exibição de variáveis:
 
