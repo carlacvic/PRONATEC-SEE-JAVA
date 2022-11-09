@@ -4,7 +4,7 @@ public class main
     {
         /*Métodos para strings com passagem de parâmetro:
             Sintaxe básica: String.método();
-            replace() -             
+            equals() - compara strings com string ou caractere com string e retorna um valor do tipo boolean.             
             Sintaxe específica: Stging.equals('char');
         */
 
@@ -13,11 +13,11 @@ public class main
         //Comparação com char:
         System.out.println(nome.equals('a'));
 
-        //Comparação com String:
-        System.out.println(nome.equals("Maria das Dores Hortência"));
+        //Comparação com String e retorno falso:
+       System.out.println(nome.equals("Maria das Dores Hortência"));
 
-        //Comparação com String:
-        System.out.println(nome.equals("Maria das Dores Hortência de Oliveira"));
+       //Comparação com String e retorno verdadeiro:
+       System.out.println(nome.equals("Maria das Dores Hortência de Oliveira"));
 
     }
 }
