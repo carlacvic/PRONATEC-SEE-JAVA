@@ -1,0 +1,19 @@
+public class main
+{
+    public static void main(String[] args)
+    {
+        /*Métodos para strings sem passagem de parâmetro:
+                toUpperCase() - conversão para maiúscula.
+                toLowerCase() - conversão para minúscula.
+                length() - retorna o número de caracteres de uma string.
+                -->Sintaxe: System.out.println(variável.método());          
+        */
+
+        String nome = "Maria das Dores Hortência de Oliveira";
+        System.out.println("Nome original         : "+nome);
+        System.out.println("Nome em maiúscula     : " +nome.toUpperCase());
+        System.out.println("Nome em minúcula      : " +nome.toLowerCase());
+        System.out.println("Quantidade de letras  : " +nome.length());
+
+    }
+}
