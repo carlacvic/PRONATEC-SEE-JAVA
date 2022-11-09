@@ -3,22 +3,31 @@ public class main
     public static void main(String[] args)
     {
         //Declaração de variável do tipo inteiro (números naturais):
-        int var_int;
+        int var_int =  10;
 
         //Declaração de variável do tipo float (menor quantidade de casas decimais):
-        float var_float;
+        float var_float = 20.73f;
 
         //Declaração de variável do tipo double (menor quantidade de casas decimais):
-        double var_double;
+        double var_double = 655.999;
 
         //Declaração de variável do tipo boolean (admite valores verdadeiro ou falso):
-        boolean var_boolean;
+        boolean var_boolean = true;
 
         //Declaração de variável do tipo char (um único caracter):
-        char var_char;
+        char var_char = 'S';
 
         //Declaração de variável do tipo string (sequência de caracteres):
-        String var_string;
+        String var_string = "Aparecida da Silva";
+
+        //Exibição de variáveis:
+
+        System.out.println("Tipo de dado inteiro   : "+var_int);
+        System.out.println("Tipo de dado float     : "+var_float);
+        System.out.println("Tipo de dado double    : "+var_double);
+        System.out.println("Tipo de dado boolean   : "+var_boolean);
+        System.out.println("Tipo de dado char      : "+var_char);
+        System.out.println("Tipo de dado String    : "+var_string);
 
     }
 }
