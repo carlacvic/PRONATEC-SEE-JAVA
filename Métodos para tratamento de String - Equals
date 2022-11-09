@@ -1,0 +1,20 @@
+public class main
+{
+    public static void main(String[] args)
+    {
+        /*Métodos para strings com passagem de parâmetro:
+            Sintaxe básica: String.método();
+            equals() - compara strings com string ou caractere com string e retorna um valor do tipo boolean.             
+            Sintaxe específica: Stging.equals('char');
+        */
+
+        String nome = "Maria das Dores Hortência de Oliveira";
+
+        //Comparação com char:
+        System.out.println(nome.equals('a'));
+
+        //Comparação com String:
+       System.out.println(nome.equals("Maria das Dores Hortência de Oliveira"));
+
+    }
+}
