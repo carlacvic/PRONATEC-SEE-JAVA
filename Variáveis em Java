@@ -1,0 +1,14 @@
+public class main
+{
+    public static void main(String[] args)
+    {
+        int x = 20;
+        int y = 10;
+
+        System.out.println("Resultado da soma de x + y : " +(x+y));
+        System.out.println("Resultado da subtração de x - y : " +(x-y));
+        System.out.println("Resultado da multiplicação de x * y : " +(x*y));
+        System.out.println("Resultado da divisão de x / y : " +(x/y));
+
+    }
+}
