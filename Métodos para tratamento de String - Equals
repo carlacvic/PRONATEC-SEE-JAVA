@@ -14,10 +14,10 @@ public class main
         System.out.println(nome.equals('a'));
 
         //Comparação com String e retorno falso:
-       System.out.println(nome.equals("Maria das Dores Hortência"));
+        System.out.println(nome.equals("Maria das Dores Hortência"));
 
-       //Comparação com String e retorno verdadeiro:
-       System.out.println(nome.equals("Maria das Dores Hortência de Oliveira"));
+        //Comparação com String e retorno verdadeiro:
+        System.out.println(nome.equals("Maria das Dores Hortência de Oliveira"));
 
     }
 }
