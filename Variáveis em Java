@@ -2,13 +2,23 @@ public class main
 {
     public static void main(String[] args)
     {
-        int x = 20;
-        int y = 10;
+        //Declaração de variável do tipo inteiro (números naturais):
+        int var_int;
 
-        System.out.println("Resultado da soma de x + y : " +(x+y));
-        System.out.println("Resultado da subtração de x - y : " +(x-y));
-        System.out.println("Resultado da multiplicação de x * y : " +(x*y));
-        System.out.println("Resultado da divisão de x / y : " +(x/y));
+        //Declaração de variável do tipo float (menor quantidade de casas decimais):
+        float var_float;
+
+        //Declaração de variável do tipo double (menor quantidade de casas decimais):
+        double var_double;
+
+        //Declaração de variável do tipo boolean (admite valores verdadeiro ou falso):
+        boolean var_boolean;
+
+        //Declaração de variável do tipo char (um único caracter):
+        char var_char;
+
+        //Declaração de variável do tipo string (sequência de caracteres):
+        String var_string;
 
     }
 }
